@@ -1,0 +1,16 @@
+Metrics/BlockLength:
+  ExcludedMethods:
+    - describe
+    - context
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+Style/DocumentationMethod:
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
